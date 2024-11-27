@@ -17,6 +17,6 @@ public class Krypto {
         System.out.println("Der Betrag in XRP ist: "+eur * 1.35);
     }
     public static void convertToXLM (Double eur){
-        System.out.println("Der Betrag in XLM ist: "+eur * 0.46)
+        System.out.println("Der Betrag in XLM ist: "+eur * 0.46);
     }
 }
