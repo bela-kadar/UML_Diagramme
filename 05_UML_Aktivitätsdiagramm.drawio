@@ -1,0 +1,80 @@
+<mxfile host="65bd71144e">
+    <diagram id="hLeQKxlCf6LbS95nGHpF" name="Seite-1">
+        <mxGraphModel dx="360" dy="324" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="Fluggast" style="html=1;shape=mxgraph.sysml.actPart;strokeWidth=3;verticalAlign=top;rotation=0;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="30" y="30" width="400" height="620" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="Abfertigung" style="html=1;shape=mxgraph.sysml.actPart;strokeWidth=3;verticalAlign=top;rotation=0;whiteSpace=wrap;" vertex="1" parent="1">
+                    <mxGeometry x="430" y="30" width="360" height="620" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="" style="shape=ellipse;html=1;fillColor=strokeColor;strokeWidth=2;verticalLabelPosition=bottom;verticalAlignment=top;perimeter=ellipsePerimeter;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="50" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Ticket am Schalter&lt;br&gt;&amp;nbsp;zeigen" style="shape=rect;html=1;rounded=1;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="160" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Ticket überprufen" style="shape=rect;html=1;rounded=1;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="540" y="160" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="Service kontaktieren" style="shape=rect;html=1;rounded=1;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="40" y="390" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="Gepäck überreichen" style="shape=rect;html=1;rounded=1;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="260" y="390" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="Gewicht überprufen" style="shape=rect;html=1;rounded=1;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="520" y="320" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="Boardkarte&lt;br&gt;ausstellen" style="shape=rect;html=1;rounded=1;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="530" y="480" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="" style="html=1;shape=mxgraph.sysml.actFinal;strokeWidth=2;verticalLabelPosition=bottom;verticalAlignment=top;" vertex="1" parent="1">
+                    <mxGeometry x="580" y="620" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="Zussatzkosten&amp;nbsp;&lt;br&gt;bezahlen" style="shape=rect;html=1;rounded=1;whiteSpace=wrap;align=center;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="570" width="160" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="" style="shape=rhombus;html=1;verticalLabelPosition=bottom;verticalAlignment=top;" vertex="1" parent="1">
+                    <mxGeometry x="210" y="280" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="" style="edgeStyle=elbowEdgeStyle;html=1;elbow=horizontal;align=right;verticalAlign=bottom;endArrow=none;rounded=0;labelBackgroundColor=none;startArrow=open;startSize=12;entryX=-0.018;entryY=0.65;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="8">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="330" y="190" as="targetPoint"/>
+                        <mxPoint x="250" y="299" as="sourcePoint"/>
+                        <Array as="points">
+                            <mxPoint x="350" y="270"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="21" value="[guard]" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;verticalAlign=bottom;endArrow=open;rounded=0;labelBackgroundColor=none;endSize=12;" edge="1" source="19" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="380" y="388" as="targetPoint"/>
+                        <Array as="points">
+                            <mxPoint x="310" y="338"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="22" value="[else]" style="edgeStyle=elbowEdgeStyle;html=1;elbow=vertical;verticalAlign=bottom;endArrow=open;rounded=0;labelBackgroundColor=none;endSize=12;" edge="1" source="19" parent="1">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="63" y="387" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="23" value="" style="endArrow=classic;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="6">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="179.5" y="101" as="sourcePoint"/>
+                        <mxPoint x="179.5" y="160" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="24" value="" style="endArrow=classic;html=1;" edge="1" parent="1">
+                    <mxGeometry width="50" height="50" relative="1" as="geometry">
+                        <mxPoint x="290" y="190" as="sourcePoint"/>
+                        <mxPoint x="539" y="189" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
